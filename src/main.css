@@ -8,3 +8,67 @@ html, body{
 body{
     height: 100vh;
 }
+#content-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+#main-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer-wrapper{    
+    background: #EEE;
+}
+
+
+
+/*main section*/
+img{
+    max-width: 20rem;
+}
+
+#search-wrapper{
+    display: flex;
+    align-items: center;
+    border: 1px solid #AAA;
+    border-radius: 50px;
+    padding: 3px 10px;
+    margin: 5px;
+}
+
+input{
+    border: 0;
+    width: 30rem;
+    height: 2rem;
+    font-size: 15px;
+}
+input:focus{
+    border: 0 transparent white;
+    outline: none;
+}
+
+/*footer section*/
+#upper-footer, #lower-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#upper-footer > p{margin: 0;}
+
+/*generic*/
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

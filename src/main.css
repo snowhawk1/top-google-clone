@@ -17,7 +17,7 @@ body{
 #header-wrapper{
     display: flex;
     justify-content: space-between;
-    margin: 5px;
+    margin: 15px 10px;
 }
 #main-wrapper{
     display: flex;
@@ -30,7 +30,25 @@ body{
     background: #EEE;
 }
 
+/*header section*/
+#header-wrapper > section > a{
+    color: black;
+    padding: 0 10px;
+}
 
+#header-left > a{
+    font-size: 13px;
+    padding: 0 0 5px 0;
+}
+#header-right{
+    overflow: hidden;
+}
+#sign-in{
+    padding: 10px 15px !important;
+    border-radius: 5px;
+    background: rgb(97, 97, 245);
+    color: white !important;
+}
 
 /*main section*/
 img{

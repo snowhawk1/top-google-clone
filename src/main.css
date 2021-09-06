@@ -24,6 +24,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15rem;
 }
 #footer-wrapper{    
     background: #EEE;
@@ -39,7 +40,7 @@ img{
 #search-wrapper{
     display: flex;
     align-items: center;
-    border: 1px solid #AAA;
+    border: 1px solid #CCC;
     border-radius: 50px;
     padding: 3px 10px;
     margin: 5px;
@@ -56,19 +57,42 @@ input:focus{
     outline: none;
 }
 
+#search-button{
+    margin: 1rem 0.25rem;
+    border: 0;
+    border-radius: 5px;
+    background: #F7F7F7;
+    padding: 10px;
+}
+#language-swap{
+    font-size: 13px;
+}
+
 /*footer section*/
 #upper-footer, #lower-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 15px 25px;
+    color: #777;
+    font-size: 14px;
 }
-#upper-footer > p{margin: 0;}
+#upper-footer > p{
+    margin: 0;
+}
+#lower-footer > div > a{
+    color: #777;
+    padding: 10px 11px;
+}
 
 /*generic*/
 a{
     text-decoration: none;
+
 }
 a:hover{
     text-decoration: underline;
+}
+hr{
+    margin: 0;
 }
